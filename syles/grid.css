@@ -1,0 +1,45 @@
+.grid {
+  max-width: 80rem;
+  height: 60rem;
+  display: grid;
+  gap:3.2rem
+}
+
+.gallery-1{
+  grid-template-areas: 
+  "a b"
+  "a c";
+}
+
+.gallery-r{
+  grid-template-areas:
+  "a b"
+  "a c";
+}
+
+.gallery-1 div:nth-child(1) {
+  grid-area: a;
+}
+
+.gallery-1 div:nth-child(2) {
+  grid-area: b;
+}
+
+.gallery-1 div:nth-child(3) {
+  grid-area: c;
+}
+
+.gallery-r div:nth-child(1)
+{
+  grid-area: a;
+}
+
+.gallery-r div:nth-child(2)
+{
+  grid-area: b;
+}
+
+.gallery-r div:nth-child(3)
+{
+  grid-area: c;
+}
